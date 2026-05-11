@@ -2,8 +2,8 @@ import urllib.request
 import json
 
 def crawl_naver_news(url, start=0, display=10):
-    client_id = "Ai6obFYQTnE3y7qR8ekH"
-    client_secret = "e3JoIlJ5AN"
+    client_id = ""
+    client_secret = ""
     url += f'&start={start}&display={display}'
     request = urllib.request.Request(url)
     request.add_header("X-Naver-Client-Id",client_id)
